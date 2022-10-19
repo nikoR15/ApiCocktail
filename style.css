@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 11rem;
+    width: 100%;
+    background: #200808;
+    /* background: url(./image/fondo.png); */
+}
+ 
+.tittle{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+p{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+#search{
+    width: 20rem; 
+    height: 1.5rem;
+    margin-left: 41%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 20px;
+    background: #420000;
+    border-color: #420000;
+    color: #ffffff;
+}
+
+::placeholder{
+    color: #ffffff;
+    opacity: calc(70%);
+}
+
+#containerCard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #200808;
+}
+
+.card{
+    height:20rem;
+    width: 20rem;
+    margin: 4rem;
+    background: #420000;
+    border-radius: 10px;
+    /* box-shadow:  0 0 20px #73f3ef; */
+}
+
+.card > img{
+    height:70%;
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius:10px;
+    box-shadow:  0 0 20px #fff;
+}
+.card > .name{
+    display: flex;
+    justify-content: center;
+    height:10%;
+    font-size:1.5rem;
+    color:white;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+.filtro{
+    display: none;
+}
